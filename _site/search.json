@@ -7,20 +7,6 @@
     "text": "In recent years, the term “data science” has become a buzzword in industries ranging from technology to healthcare. But what exactly is data science, and why is it so important? Data science is a multidisciplinary field that combines statistics, computer science, and domain knowledge to extract insights from data. It powers everything from recommendation systems on Netflix to personalized medical treatments.\nThis blog post aims to clarify the concept of data science and explain how it differs from traditional statistics, which remains a critical but narrower field of study."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "Hi! I’m a data enthusiast sharing tips and insights about data science and visualization. Thanks for visiting my blog."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to My Blog",
-    "section": "",
-    "text": "This is the homepage of my Quarto blog. Stay tuned for updates and new posts!"
-  },
-  {
     "objectID": "post/post1.html#key-components-of-data-science",
     "href": "post/post1.html#key-components-of-data-science",
     "title": "Understanding Data Science: What It Is and How It Differs from Statistics",
@@ -54,5 +40,19 @@
     "title": "Understanding Data Science: What It Is and How It Differs from Statistics",
     "section": "Conclusion",
     "text": "Conclusion\nData science and statistics are closely related but serve different purposes. Statistics provides the foundation for understanding data relationships, while data science extends this knowledge to solve real-world problems using advanced tools and techniques. Together, they play a critical role in today’s data-driven world."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Hi! I’m a data enthusiast sharing tips and insights about data science and visualization. Thanks for visiting my blog."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Blog",
+    "section": "",
+    "text": "This is the homepage of my Quarto blog. Stay tuned for updates and new posts!"
   }
 ]
