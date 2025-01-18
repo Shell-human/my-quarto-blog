@@ -1,5 +1,7 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+
+
+Hi! I'm a data enthusiast sharing tips and insights about data science and visualization. Thanks for visiting my blog.

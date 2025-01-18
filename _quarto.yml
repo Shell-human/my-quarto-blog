@@ -2,18 +2,20 @@ project:
   type: website
 
 website:
-  title: "my-quarto-blog"
+  title: "My Quarto Blog"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - text: Blog
+        menu:
+          - href: post/post1.qmd
+            text: First Blog Post
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
