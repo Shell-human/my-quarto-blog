@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.56">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.5.56" />
 
-<meta name="dcterms.date" content="2025-01-18">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+<meta name="dcterms.date" content="2025-01-18" />
 
 <title>Understanding Data Science: What It Is and How It Differs from Statistics – My Quarto Blog</title>
 <style>
@@ -23,23 +25,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,41 +55,43 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../styles.css" />
 </head>
 
-<body class="nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="/index.html">
     <span class="navbar-title">My Quarto Blog</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="link" data-bs-toggle="dropdown" aria-expanded="false" >
  <span class="menu-text">Blog</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-blog">    
         <li>
-    <a class="dropdown-item" href="../post/post1.html">
+    <a class="dropdown-item" href="/post/post1.html">
  <span class="dropdown-text">First Blog Post</span></a>
   </li>  
     </ul>
@@ -120,17 +108,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#key-components-of-data-science" id="toc-key-components-of-data-science" class="nav-link active" data-scroll-target="#key-components-of-data-science">Key Components of Data Science</a></li>
-  <li><a href="#how-data-science-differs-from-statistics" id="toc-how-data-science-differs-from-statistics" class="nav-link" data-scroll-target="#how-data-science-differs-from-statistics">How Data Science Differs from Statistics</a></li>
-  <li><a href="#common-misconceptions" id="toc-common-misconceptions" class="nav-link" data-scroll-target="#common-misconceptions">Common Misconceptions</a></li>
-  <li><a href="#visual-comparison" id="toc-visual-comparison" class="nav-link" data-scroll-target="#visual-comparison">Visual Comparison</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  </ul>
-</nav>
+        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -163,63 +141,73 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-
+<nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#key-components-of-data-science" id="toc-key-components-of-data-science">Key Components of Data Science</a></li>
+  <li><a href="#how-data-science-differs-from-statistics" id="toc-how-data-science-differs-from-statistics">How Data Science Differs from Statistics</a></li>
+  <li><a href="#common-misconceptions" id="toc-common-misconceptions">Common Misconceptions</a></li>
+  <li><a href="#visual-comparison" id="toc-visual-comparison">Visual Comparison</a></li>
+  <li><a href="#conclusion" id="toc-conclusion">Conclusion</a></li>
+  </ul>
+</nav>
 <p>In recent years, the term “data science” has become a buzzword in industries ranging from technology to healthcare. But what exactly is data science, and why is it so important? Data science is a multidisciplinary field that combines statistics, computer science, and domain knowledge to extract insights from data. It powers everything from recommendation systems on Netflix to personalized medical treatments.</p>
 <p>This blog post aims to clarify the concept of data science and explain how it differs from traditional statistics, which remains a critical but narrower field of study.</p>
 <section id="key-components-of-data-science" class="level2">
-<h2 class="anchored" data-anchor-id="key-components-of-data-science">Key Components of Data Science</h2>
+<h2>Key Components of Data Science</h2>
 <p>Data science is a broad field that involves several key steps:</p>
 <ol type="1">
 <li><strong>Data Collection and Cleaning</strong>
 <ul>
-<li>This involves gathering data from various sources such as databases, APIs, or even web scraping.<br>
+<li>This involves gathering data from various sources such as databases, APIs, or even web scraping.<br />
 </li>
 <li>Cleaning the data is crucial to ensure it is accurate, consistent, and usable. This includes handling missing values and correcting errors.</li>
 </ul></li>
 <li><strong>Exploratory Data Analysis (EDA)</strong>
 <ul>
-<li>EDA helps uncover patterns, trends, and outliers in data. Visualization tools like Matplotlib, Seaborn, or Tableau are often used at this stage.<br>
+<li>EDA helps uncover patterns, trends, and outliers in data. Visualization tools like Matplotlib, Seaborn, or Tableau are often used at this stage.<br />
 </li>
 <li><em>Example:</em> A retailer might analyze seasonal trends in sales to optimize inventory.</li>
 </ul></li>
 <li><strong>Machine Learning and Predictive Modeling</strong>
 <ul>
-<li>Algorithms like regression, decision trees, and neural networks are used to make predictions or classifications.<br>
+<li>Algorithms like regression, decision trees, and neural networks are used to make predictions or classifications.<br />
 </li>
 <li><em>Example:</em> Predicting customer churn based on past behavior.</li>
 </ul></li>
 </ol>
 </section>
 <section id="how-data-science-differs-from-statistics" class="level2">
-<h2 class="anchored" data-anchor-id="how-data-science-differs-from-statistics">How Data Science Differs from Statistics</h2>
+<h2>How Data Science Differs from Statistics</h2>
 <p>While data science and statistics share some similarities, they have distinct differences:</p>
 <ol type="1">
 <li><strong>Focus and Scope</strong>
 <ul>
-<li><strong>Statistics</strong>: Primarily focuses on hypothesis testing, inference, and drawing conclusions about data relationships.<br>
+<li><strong>Statistics</strong>: Primarily focuses on hypothesis testing, inference, and drawing conclusions about data relationships.<br />
 </li>
 <li><strong>Data Science</strong>: Encompasses a broader range of activities, including data engineering, machine learning, and real-time decision-making.</li>
 </ul></li>
 <li><strong>Tools and Methods</strong>
 <ul>
-<li><strong>Statistics</strong>: Commonly uses tools like SPSS or SAS and methods such as ANOVA or chi-square tests.<br>
+<li><strong>Statistics</strong>: Commonly uses tools like SPSS or SAS and methods such as ANOVA or chi-square tests.<br />
 </li>
 <li><strong>Data Science</strong>: Leverages modern programming languages like Python and R, and frameworks like TensorFlow for machine learning.</li>
 </ul></li>
 <li><strong>Applications</strong>
 <ul>
-<li><strong>Statistics</strong>: Often used in academic research or controlled experiments.<br>
+<li><strong>Statistics</strong>: Often used in academic research or controlled experiments.<br />
 </li>
 <li><strong>Data Science</strong>: Powers tech innovations like autonomous vehicles, fraud detection, and personalized recommendations.</li>
 </ul></li>
 </ol>
 </section>
 <section id="common-misconceptions" class="level2">
-<h2 class="anchored" data-anchor-id="common-misconceptions">Common Misconceptions</h2>
+<h2>Common Misconceptions</h2>
 <ol type="1">
 <li><strong>“Data Science is Just Advanced Statistics”</strong>
 <ul>
-<li>While statistics is a core component, data science also includes software development, data visualization, and big data technologies.<br>
+<li>While statistics is a core component, data science also includes software development, data visualization, and big data technologies.<br />
 </li>
 <li><em>Example:</em> Building a recommendation system involves not just statistical models but also software engineering and user interface design.</li>
 </ul></li>
@@ -230,13 +218,13 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 </section>
 <section id="visual-comparison" class="level2">
-<h2 class="anchored" data-anchor-id="visual-comparison">Visual Comparison</h2>
+<h2>Visual Comparison</h2>
 <p>Here’s a table comparing key aspects of data science and statistics:</p>
-<table class="caption-top table">
+<table class="caption-top">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 36%">
-<col style="width: 42%">
+<col style="width: 20%" />
+<col style="width: 36%" />
+<col style="width: 42%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -265,14 +253,18 @@ ul.task-list li input[type="checkbox"] {
 </table>
 </section>
 <section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<h2>Conclusion</h2>
 <p>Data science and statistics are closely related but serve different purposes. Statistics provides the foundation for understanding data relationships, while data science extends this knowledge to solve real-world problems using advanced tools and techniques. Together, they play a critical role in today’s data-driven world.</p>
-
-
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-sidebar-title">My Quarto Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar-title">My Quarto Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Home">Home</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:About">About</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/about.html">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:Blog">Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:First Blog Post">First Blog Post</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-int-navbar:/post/post1.html">/post/post1.html</span></p>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metatitle">Understanding Data Science: What It Is and How It Differs from Statistics – My Quarto Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercardtitle">Understanding Data Science: What It Is and How It Differs from Statistics – My Quarto Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardtitle">Understanding Data Science: What It Is and How It Differs from Statistics – My Quarto Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-metasitename">My Quarto Blog</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-twittercarddesc"></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="quarto-ogcardddesc"></span></p>
+</div>
 </section>
 
 </main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -694,7 +686,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 </div> <!-- /content -->
 
+</body>
 
-
-
-</body></html>
+</html>

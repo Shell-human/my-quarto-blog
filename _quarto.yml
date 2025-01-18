@@ -5,13 +5,13 @@ website:
   title: "My Quarto Blog"
   navbar:
     left:
-      - href: index.qmd
+      - href: index.html
         text: Home
-      - href: about.qmd
+      - href: about.html
         text: About
       - text: Blog
         menu:
-          - href: post/post1.qmd
+          - href: post/post1.html
             text: First Blog Post
 
 format:
@@ -21,4 +21,3 @@ format:
     toc: true
 
 output-dir: .
-
