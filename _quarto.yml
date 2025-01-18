@@ -20,4 +20,5 @@ format:
     css: styles.css
     toc: true
 
-output-dir: docs
+output-dir: .
+
